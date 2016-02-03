@@ -585,6 +585,14 @@ Returns an array of unselected nodes e.g. state.selected = false.
 $('#tree').treeview('getUnselected', nodeId);
 ```
 
+#### getChecked()
+
+Returns an array of checked nodes e.g. state.checked = true
+
+```javascript
+$('#tree').treeview('getChecked', nodeId);
+```
+
 #### remove()
 
 Removes the tree view component. Removing attached events, internal attached objects, and added HTML elements.
